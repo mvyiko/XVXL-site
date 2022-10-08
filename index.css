@@ -217,3 +217,27 @@ body {
   margin: 0;
   display: table;
 }
+
+.profiles {
+  margin: auto;
+  width: 260px;
+  border: 0px solid #FFFF00;
+  padding: 10px;
+}
+
+.profile {
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 80%;
+  text-align: center;
+  text-shadow: 0px 0px 7px #000000;
+  font-size: 20px;
+  font-family: gothambold;
+  color: white;
+  margin-bottom: 15%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}

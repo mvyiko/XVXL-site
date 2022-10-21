@@ -189,7 +189,7 @@ body {
 
 .buttonrow {
   margin: 0 auto;
-  display: table;
+  text-align: center;
 }
 
 .bottoming {

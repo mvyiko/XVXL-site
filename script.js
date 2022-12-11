@@ -1,4 +1,7 @@
-function() {
+countdown();
+intro();
+
+function countdown() {
   // Set the date we're counting down to
   var countDownDate = new Date("March 1, 2023 0:0:00").getTime();
 
@@ -29,7 +32,7 @@ function() {
   }, 1000);
 }
 
-function() {
+function intro() {
   let day = new Date();
   let hr = day.getHours();
   console.log(hr);

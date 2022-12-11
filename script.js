@@ -56,5 +56,5 @@ if (hr >= 23 || hr <= 6) {
 }
 
 function tagline() {
-  document.getElementById("tagline").innerHTML = 'A <a class="textLink" id="githubLink" href="https://github.com/silentswrd">Kaito</a> site. :)"'
+  document.getElementById("tagline").innerHTML = 'A <a class="textLink" id="githubLink" href="https://github.com/silentswrd">Kaito</a> site. | <a class="textLink" id="githubLink" href="https://github.com/silentswrd">海斗</a>のホームページ。'
 }

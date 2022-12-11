@@ -38,15 +38,15 @@ function intro() {
   console.log(hr);
   
   if (hr > 6 && hr < 12) {
-    document.getElementById("header").innerHTML = "おはよう！ - Good morning!"
+    document.getElementById("header").innerText = "おはよう！ - Good morning!"
   }
   if (hr > 12 && hr < 16) {
-    document.getElementById("header").innerHTML = "こんにちは！ - Good afternoon!"
+    document.getElementById("header").innerText = "こんにちは！ - Good afternoon!"
   }
   if (hr > 16 && hr < 23) {
-    document.getElementById("header").innerHTML = "こんばんは！ - Good evening!"
+    document.getElementById("header").innerText = "こんばんは！ - Good evening!"
   }
   if (hr > 23 || hr < 6) {
-    document.getElementById("header").innerHTML = "おやすみなさい！ - Good night!"
+    document.getElementById("header").innerText = "おやすみなさい！ - Good night!"
   }
 }

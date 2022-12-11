@@ -1,9 +1,9 @@
 
 
 @font-face {
-    font-family: 'gothamblack';
-    src: url('gotham-black-webfont.woff2') format('woff2'),
-         url('gotham-black-webfont.woff') format('woff');
+    font-family: "gothamblack";
+    src: url("gotham-black-webfont.woff2") format("woff2"),
+         url("gotham-black-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
@@ -13,9 +13,9 @@
 
 
 @font-face {
-    font-family: 'gothambold';
-    src: url('gotham-bold-webfont.woff2') format('woff2'),
-         url('gotham-bold-webfont.woff') format('woff');
+    font-family: "gothambold";
+    src: url("gotham-bold-webfont.woff2") format("woff2"),
+         url("gotham-bold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
@@ -25,9 +25,9 @@
 
 
 @font-face {
-    font-family: 'gothambookitalic';
-    src: url('gotham-bookitalic-webfont.woff2') format('woff2'),
-         url('gotham-bookitalic-webfont.woff') format('woff');
+    font-family: "gothambookitalic";
+    src: url("gotham-bookitalic-webfont.woff2") format("woff2"),
+         url("gotham-bookitalic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
@@ -37,9 +37,9 @@
 
 
 @font-face {
-    font-family: 'gothamlight';
-    src: url('gotham-light-webfont.woff2') format('woff2'),
-         url('gotham-light-webfont.woff') format('woff');
+    font-family: "gothamlight";
+    src: url("gotham-light-webfont.woff2") format("woff2"),
+         url("gotham-light-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
@@ -49,9 +49,9 @@
 
 
 @font-face {
-    font-family: 'gothamthin';
-    src: url('gotham-thin-webfont.woff2') format('woff2'),
-         url('gotham-thin-webfont.woff') format('woff');
+    font-family: "gothamthin";
+    src: url("gotham-thin-webfont.woff2") format("woff2"),
+         url("gotham-thin-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
@@ -61,9 +61,9 @@
 
 
 @font-face {
-    font-family: 'gothamthinitalic';
-    src: url('gotham-thinitalic-webfont.woff2') format('woff2'),
-         url('gotham-thinitalic-webfont.woff') format('woff');
+    font-family: "gothamthinitalic";
+    src: url("gotham-thinitalic-webfont.woff2") format("woff2"),
+         url("gotham-thinitalic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
@@ -73,9 +73,9 @@
 
 
 @font-face {
-    font-family: 'gothamultraitalic';
-    src: url('gotham-ultraitalic-webfont.woff2') format('woff2'),
-         url('gotham-ultraitalic-webfont.woff') format('woff');
+    font-family: "gothamultraitalic";
+    src: url("gotham-ultraitalic-webfont.woff2") format("woff2"),
+         url("gotham-ultraitalic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
@@ -85,9 +85,9 @@
 
 
 @font-face {
-    font-family: 'gothamxlight';
-    src: url('gotham-xlight-webfont.woff2') format('woff2'),
-         url('gotham-xlight-webfont.woff') format('woff');
+    font-family: "gothamxlight";
+    src: url("gotham-xlight-webfont.woff2") format("woff2"),
+         url("gotham-xlight-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
@@ -97,9 +97,9 @@
 
 
 @font-face {
-    font-family: 'gothamxlightitalic';
-    src: url('gotham-xlightitalic-webfont.woff2') format('woff2'),
-         url('gotham-xlightitalic-webfont.woff') format('woff');
+    font-family: "gothamxlightitalic";
+    src: url("gotham-xlightitalic-webfont.woff2") format("woff2"),
+         url("gotham-xlightitalic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 
@@ -124,7 +124,7 @@ body {
 #header {
   color: white;
   text-align: center;
-  font-family: 'gothamblack', sans-serif;
+  font-family: "gothamblack", sans-serif;
   font-size: 50px;
   font-weight: 600;
   text-shadow: 0px 0px 7px #000000;
@@ -145,7 +145,7 @@ body {
 
 #subtitle {
   text-align: center;
-  font-family: 'gothambold', sans-serif;
+  font-family: "gothambold", sans-serif;
   color: white;
   font-size: 32px;
   padding-top: 50px;
@@ -219,9 +219,6 @@ body {
 
 }
 
-.bottomingcontents span {
-}
-
 .bottomingmid {
   margin: 0;
   display: table;
@@ -249,6 +246,22 @@ body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 
+}
+
+#genshinCard {
+  background-image: url("https://i.imgur.com/OJA32Gu.png");
+}
+
+#mcCard {
+  background-image: url("https://i.imgur.com/iSwZzBL.png");
+}
+
+#nsCard {
+  background-image: url("https://i.imgur.com/n8HEw4V.png");
+}
+
+#osuCard {
+  background-image: url("https://i.imgur.com/F78rgHh.jpg");
 }
 
 #demo {

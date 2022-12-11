@@ -6,6 +6,6 @@ You may look trough the code and use them as inspiration for your own projects! 
 
 ## Thanks to
 • Scott Schiller <br>
-  For his snowstorm script
+  For his snowstorm script <br>
 • Tobias Frere-Jones & Jesse Ragan
   For Gotham font

@@ -1,6 +1,7 @@
-// Run functions
+// Run functions when page loads
 countdown();
 intro();
+tagline();
 
 
 function countdown() {
@@ -52,4 +53,8 @@ if (hr >= 16 && hr <= 23) {
 if (hr >= 23 || hr <= 6) {
   document.getElementById("header").innerHTML = "おやすみなさい！<br>Good night!"
 }
+}
+
+function tagline() {
+  document.getElementById("tagline").innerHTML = 'A <a class="textLink" id="githubLink" href="https://github.com/silentswrd">Kaito</a> site. :)"'
 }

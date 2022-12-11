@@ -108,6 +108,12 @@
 a {
     color:rgba(133, 121, 110, 1);
     font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgba(218, 199, 180, 1);
+    text-decoration: none;
 }
 
 body {
@@ -176,7 +182,7 @@ body {
 }
 
 .button:hover {
-  background: rgba(200, 180, 218, 1);
+  background: rgba(218, 199, 180, 1);
   font-size: 80%;
 }
 

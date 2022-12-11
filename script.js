@@ -1,3 +1,25 @@
+// Basically like :WaitForChild in Lua, but in js.
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
+
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                resolve(document.querySelector(selector));
+                observer.disconnect();
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
+
+// Run functions
 countdown();
 intro();
 
@@ -32,21 +54,23 @@ function countdown() {
   }, 1000);
 }
 
-function intro() {
-  let day = new Date();
-  let hr = day.getHours();
-  console.log(hr);
-  
-  if (hr > 6 && hr < 12) {
-    document.getElementById("header").innerText = "おはよう！ - Good morning!"
+waitForElm('.header').then((elm) => {
+  function intro() {
+    let day = new Date();
+    let hr = day.getHours();
+    console.log(hr);
+
+    if (hr > 6 && hr < 12) {
+      document.getElementById("header").innerText = "おはよう！ - Good morning!"
+    }
+    if (hr > 12 && hr < 16) {
+      document.getElementById("header").innerText = "こんにちは！ - Good afternoon!"
+    }
+    if (hr > 16 && hr < 23) {
+      document.getElementById("header").innerText = "こんばんは！ - Good evening!"
+    }
+    if (hr > 23 || hr < 6) {
+      document.getElementById("header").innerText = "おやすみなさい！ - Good night!"
+    }
   }
-  if (hr > 12 && hr < 16) {
-    document.getElementById("header").innerText = "こんにちは！ - Good afternoon!"
-  }
-  if (hr > 16 && hr < 23) {
-    document.getElementById("header").innerText = "こんばんは！ - Good evening!"
-  }
-  if (hr > 23 || hr < 6) {
-    document.getElementById("header").innerText = "おやすみなさい！ - Good night!"
-  }
-}
+});

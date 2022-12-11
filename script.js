@@ -1,30 +1,7 @@
-// Basically like :WaitForChild in Lua, but in js.
-function waitForElm(selector) {
-    return new Promise(resolve => {
-        if (document.querySelector(selector)) {
-            return resolve(document.querySelector(selector));
-        }
-
-        const observer = new MutationObserver(mutations => {
-            if (document.querySelector(selector)) {
-                resolve(document.querySelector(selector));
-                observer.disconnect();
-            }
-        });
-
-        observer.observe(document.body, {
-            childList: true,
-            subtree: true
-        });
-    });
-}
-
 // Run functions
 countdown();
+intro();
 
-waitForElm('.header').then((elm) => {
-    intro();
-});
 
 function countdown() {
   // Set the date we're counting down to

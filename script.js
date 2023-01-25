@@ -42,19 +42,19 @@ let hr = day.getHours();
 console.log(hr);
 
 if (hr >= 6 && hr <= 12) {
-  document.getElementById("header").innerHTML = "おはよう！<br>Good morning!"
+  document.getElementById("header").innerHTML = "좋은아침이에요！<br>Good morning!"
 }
 if (hr >= 12 && hr <= 16) {
-  document.getElementById("header").innerHTML = "こんにちは！<br>Good afternoon!"
+  document.getElementById("header").innerHTML = "즐거운 하루 되세요！<br>Enjoy your day!"
 }
 if (hr >= 16 && hr <= 23) {
-  document.getElementById("header").innerHTML = "こんばんは！<br>Good evening!"
+  document.getElementById("header").innerHTML = "좋은 저녁 보내세요！<br>Good evening!"
 }
 if (hr >= 23 || hr <= 6) {
-  document.getElementById("header").innerHTML = "おやすみなさい！<br>Good night!"
+  document.getElementById("header").innerHTML = "잘 자！<br>Good night!"
 }
 }
 
 function tagline() {
-  document.getElementById("tagline").innerHTML = 'A <a class="textLink" id="githubLink" href="https://github.com/silentswrd">Kaito</a> site. ︱ <a class="textLink" id="githubLink" href="https://github.com/silentswrd">海斗</a>のホームページ。'
+  document.getElementById("tagline").innerHTML = 'A <a class="textLink" id="githubLink" href="https://github.com/silentswrd">xvxl</a> site. ︱ <a class="textLink" id="githubLink" href="https://github.com/silentswrd">xvxl</a>l에서 만든 웹사이트'
 }

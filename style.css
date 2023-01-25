@@ -121,7 +121,7 @@ body {
   margin: 0px;
 }
 
-#header {
+#header, #headerCustom {
   color: white;
   text-align: center;
   font-family: "gothamblack", sans-serif;
@@ -251,8 +251,17 @@ body {
 }
 
 #kodachiCard {
-
+    background-image: url("https://images.unsplash.com/photo-1516116412344-6663387e8590?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8amF2YXNjcmlwdCUyMGNvZGV8ZW58MHx8MHx8&w=1000&q=80");
 }
+
+#abtme1Card {
+    background-image: url("https://wallpaperaccess.com/full/925532.jpg");
+}
+
+#abtme2Card {
+    background-image: url("https://assets.teenvogue.com/photos/63b4a6386ce4660478f4d4a1/1:1/pass/undefined");
+}
+
 
 .frame {
     margin: auto;

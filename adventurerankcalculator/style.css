@@ -235,3 +235,11 @@ input {
     padding: 10px;
 
 }
+
+#primogemicon {
+    display: inline;
+}
+
+#primogemicon:hover {
+    display: inline;
+}

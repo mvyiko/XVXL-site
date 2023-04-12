@@ -103,7 +103,7 @@ body {
     text-align: center;
     font-family: 'A-OTF Shin Go Pro M', sans-serif;
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
@@ -112,7 +112,7 @@ body {
     text-align: center;
     font-family: 'A-OTF Shin Go Pro R', sans-serif;
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     padding-top: 15px;
     padding-bottom: 5px;
 }
@@ -238,6 +238,11 @@ input {
 
 #primogemicon {
     display: inline-block;
-    height: 14px;
+    height: 17px;
     width: auto;
+}
+
+.img {
+    text-align: center;
+    border-radius: 15%;
 }

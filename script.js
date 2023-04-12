@@ -11,7 +11,7 @@ if (hr >= 6 && hr <= 12) {
   document.getElementById("header").innerHTML = "xvxl's EXP calculator<br>Good morning!"
 }
 if (hr >= 12 && hr <= 16) {
-  document.getElementById("header").innerHTML = "xvxl's EXP calculator<br>Enjoy your day!"
+  document.getElementById("header").innerHTML = "xvxl's EXP calculator<br>Good afternoon!"
 }
 if (hr >= 16 && hr <= 23) {
   document.getElementById("header").innerHTML = "xvxl's EXP calculator<br>Good evening!"

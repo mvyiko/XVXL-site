@@ -244,6 +244,10 @@ input {
 
 .img {
     text-align: center;
+}
+
+#instructions {
+    text-align: center;
     width: fit-content;
     border-radius: 30px;
 }

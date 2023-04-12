@@ -244,5 +244,6 @@ input {
 
 .img {
     text-align: center;
-    border-radius: 15%;
+    width: fit-content;
+    border-radius: 30px;
 }

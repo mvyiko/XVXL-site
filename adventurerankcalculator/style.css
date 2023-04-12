@@ -108,6 +108,15 @@ body {
     padding-bottom: 5px;
 }
 
+.text {
+    text-align: center;
+    font-family: 'A-OTF Shin Go Pro R', sans-serif;
+    color: white;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
 input {
     margin: auto;
     display: block;

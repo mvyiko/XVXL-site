@@ -8,16 +8,16 @@ let hr = day.getHours();
 console.log(hr);
 
 if (hr >= 6 && hr <= 12) {
-  document.getElementById("header").innerHTML = "EXP Calculator<br>"
+  document.getElementById("header").innerHTML = "AR Calculator<br>"
 }
 if (hr >= 12 && hr <= 16) {
-  document.getElementById("header").innerHTML = "EXP Calculator<br>"
+  document.getElementById("header").innerHTML = "AR Calculator<br>"
 }
 if (hr >= 16 && hr <= 23) {
-  document.getElementById("header").innerHTML = "EXP Calculator<br>"
+  document.getElementById("header").innerHTML = "AR Calculator<br>"
 }
 if (hr >= 23 || hr <= 6) {
-  document.getElementById("header").innerHTML = "EXP Calculator<br>"
+  document.getElementById("header").innerHTML = "AR Calculator<br>"
 }
 }
 

@@ -32,5 +32,5 @@ function calculate() {
     console.log("Total Exp required: ", TOTAL_EXP_REQUIRED);
     console.log("Estimated days until targeted AR:", TOTAL_EXP_REQUIRED / EXP_GAIN_PER_DAY);
 
-    document.getElementById("result").innerHTML = "Total EXP required: " + TOTAL_EXP_REQUIRED + "  •  " + "ETA: " + TOTAL_EXP_REQUIRED / EXP_GAIN_PER_DAY + " days till AR" + WANTED_AR
+    document.getElementById("result").innerHTML = "Total EXP required: " + TOTAL_EXP_REQUIRED + "<br>" + "ETA: " + TOTAL_EXP_REQUIRED / EXP_GAIN_PER_DAY + " days till AR" + WANTED_AR
 }

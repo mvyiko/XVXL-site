@@ -142,6 +142,9 @@ input {
     border-bottom-right-radius: 50px;
     background:rgba(255, 255, 255, 1);
     transition: all .9s cubic-bezier(0,.81,.18,1);
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
 }
 
 .page {

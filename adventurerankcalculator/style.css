@@ -238,4 +238,6 @@ input {
 
 #primogemicon {
     display: inline-block;
+    height: 14px;
+    width: auto;
 }

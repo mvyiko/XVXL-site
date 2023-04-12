@@ -141,9 +141,34 @@ input {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     background:rgba(255, 255, 255, 1);
-    transition: all .9s cubic-bezier(0,.81,.18,1);
     -webkit-appearance: none;
     -moz-appearance: textfield;
+}
+
+inputtick {
+    margin: auto;
+    display: block;
+}
+
+.inputtick {
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    font-family: 'A-OTF Shin Go Pro M', sans-serif;
+    width:auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-width:1px;
+    color: rgb(17, 18, 20, 1);
+    border-color:rgba(255, 255, 255, 1);
+    font-weight:bold;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background:rgba(255, 255, 255, 1);
 }
 
 .page {

@@ -26,7 +26,7 @@
   <!-- Options -->
   <div class=buttonrow>
     <span><a href="https://xvxls.com" class="button">Home</a></span>
-    <span><a href="adventurerankcalculator" class="button">AR Calculator</a></span>
+    <span><a href="https://xvxls.com/adventurerankcalculator" class="button">AR Calculator</a></span>
   </div>
 
   <div class="subtitle">Adventure Rank Calculator (AR50+)</div><br>
@@ -36,9 +36,17 @@
   <input type="number" name="Targeted AR" id="targetedAR" class="input"><br>
   <div class="smalltitle">Accumulated EXP</div><br>
   <input type="number" name="Accumulated EXP" id="exp" class="input"><br>
+  <div class="smalltitle">Resin</div><br>
+  <input type="checkbox" name="I use my resin" id="resin" class="input"><br>
+  <input type="checkbox" name="I use primogems to replenish my resin every day" id="primogemresin" class="input"><br>
+
+  <div class=buttonrow>
+    <span><a onclick="calculate();" class="button">Calculate ></a></span>
+  </div>
 
 </div>
 
 </body>
 </html>
 <script src="script.js"></script>
+<script src="calculator.js"></script>

@@ -8,16 +8,16 @@ let hr = day.getHours();
 console.log(hr);
 
 if (hr >= 6 && hr <= 12) {
-  document.getElementById("header").innerHTML = "xvxl's EXP calculator<br>Good morning!"
+  document.getElementById("header").innerHTML = "xvxl's,<br>Good morning!"
 }
 if (hr >= 12 && hr <= 16) {
-  document.getElementById("header").innerHTML = "xvxl's EXP calculator<br>Good afternoon!"
+  document.getElementById("header").innerHTML = "xvxl's,<br>Good afternoon!"
 }
 if (hr >= 16 && hr <= 23) {
-  document.getElementById("header").innerHTML = "xvxl's EXP calculator<br>Good evening!"
+  document.getElementById("header").innerHTML = "xvxl's,<br>Good evening!"
 }
 if (hr >= 23 || hr <= 6) {
-  document.getElementById("header").innerHTML = "xvxl's EXP calculator<br>Good night!"
+  document.getElementById("header").innerHTML = "xvxl's,<br>Good night!"
 }
 }
 

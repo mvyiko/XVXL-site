@@ -237,9 +237,5 @@ input {
 }
 
 #primogemicon {
-    display: inline;
-}
-
-#primogemicon:hover {
-    display: inline;
+    display: inline-block;
 }

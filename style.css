@@ -110,12 +110,12 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 100%;
-  font-family:Arial;
+  font-family: 'A-OTF Shin Go Pro R', sans-serif;
   width:180px;
   padding-top: 15px;
   padding-bottom: 15px;
   border-width:1px;
-  color:rgba(133, 121, 110, 1);
+  color:rgba(179, 225, 255);
   border-color:rgba(255, 255, 255, 1);
   font-weight:bold;
   border-top-left-radius: 50px;
@@ -129,7 +129,7 @@ body {
 }
 
 .button:hover {
-  background: rgba(133, 121, 110, 1);
+  background: rgba(122, 202, 255);
   font-size: 80%;
 }
 
@@ -159,7 +159,7 @@ body {
   position: relative;
   padding-top: 180px;
   background-color: rgba(22, 23, 25, 1);
-  font-family: gothamlight;
+  font-family: 'A-OTF Shin Go Pro R', sans-serif;
   color: white;
   font-size: 20px;
   text-align: center;
@@ -178,36 +178,6 @@ body {
   padding: 10px;
 }
 
-.infoCard {
-    background-size: cover;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 30%;
-    text-align: center;
-    text-shadow: 0px 0px 7px #000000;
-    font-size: 16px;
-    font-family: gothambold;
-    color: white;
-    background-color: #575251;
-    margin-bottom: 15%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-#kodachiCard {
-    background-image: url("https://images.unsplash.com/photo-1516116412344-6663387e8590?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8amF2YXNjcmlwdCUyMGNvZGV8ZW58MHx8MHx8&w=1000&q=80");
-}
-
-#abtme1Card {
-    background-image: url("https://wallpaperaccess.com/full/925532.jpg");
-}
-
-#abtme2Card {
-    background-image: url("https://assets.teenvogue.com/photos/63b4a6386ce4660478f4d4a1/1:1/pass/undefined");
-}
 
 
 .frame {
@@ -216,47 +186,4 @@ body {
     border: 0px solid #FFFF00;
     padding: 10px;
 
-}
-
-.profile {
-  background-size: cover;
-  padding-top: 20%;
-  padding-bottom: 80%;
-  text-align: center;
-  text-shadow: 0px 0px 7px #000000;
-  font-size: 20px;
-  font-family: gothambold;
-  color: white;
-  margin-bottom: 15%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-
-}
-
-#genshinCard {
-  background-image: url("https://i.imgur.com/OJA32Gu.png");
-}
-
-#mcCard {
-  background-image: url("https://i.imgur.com/iSwZzBL.png");
-}
-
-#nsCard {
-  background-image: url("https://i.imgur.com/n8HEw4V.png");
-}
-
-#osuCard {
-  background-image: url("https://i.imgur.com/F78rgHh.jpg");
-}
-
-#demo {
-  text-align: center;
-  font-size: 60px;
-  margin-top: 0px;
-  font-family: gothamlight;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: white;
 }
